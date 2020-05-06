@@ -1,6 +1,6 @@
 Reverse Engineering
 
-Prompt - "We developed this password-protected program which uses a super-secure, military-grade hash function with 256-bits of security to ensure only someone with the proper password can print the flag."
+`Prompt - "We developed this password-protected program which uses a super-secure, military-grade hash function with 256-bits of security to ensure only someone with the proper password can print the flag."`
 
 When you execute the binary you get the prompt: "Enter the password to get the flag: "
 
@@ -76,7 +76,7 @@ The prompt takes your input from the prompt and puts it into &local_78, wherever
            00100b9f 8a              undefined18Ah                     [31]
 ```
 Lot of hex values. Once we isolate all those values we and join them we get the following string
-"c4bbcb1fbec99d65bf59d85c8cb62ee2db963f0fe106f483d9afa73bd4e39a8a"
+`c4bbcb1fbec99d65bf59d85c8cb62ee2db963f0fe106f483d9afa73bd4e39a8a`
 
 We already know it's a sha-256 so let's try and decrypt it online. Luckily we get a result which must be our password
 "correct horse battery staple"

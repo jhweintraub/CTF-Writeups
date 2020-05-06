@@ -4,8 +4,8 @@ Simple SQL Injection ' OR 1=1;-- didn't work but there is a "Resend Password Opt
 
 `Email sent to vault.master@cyberstakes.club!`
 
-I wonder if I can intercept that request and change the email to my own
-Fire up burpsuite and intercept the request and you'll see the parameter
+I wonder if I can intercept that request and change the email to my own,
+we fire up burpsuite and intercept the request and you'll see the parameter
 
 `email=vault.master%40cyberstakes.club`
 

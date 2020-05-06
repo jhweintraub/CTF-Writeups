@@ -8,7 +8,7 @@ I throw the standard injection into the username `' OR 1=1 -- `to bypass passwor
 
 `Welcome admin! The "hash" for account 'houdini' is 'Not a hash'.`
 
-Now we know there's a user houdini and their "hash" is "Not a hash". Now obviously that's not a real hash but mean's there's something in the table to get with that information. Let's see what we can inject. The account houdini:Not a hash did not work unfortunately. We know there's a field called pwHash so let's see if we can get information from it let's inject this into the username field
+Now we know there's a user houdini and their "hash" is "Not a hash". Now obviously that's not a real hash but mean's there's something in the table to get with that information. Let's see what we can inject. The account houdini:Not a hash did not work unfortunately. We know there's a field called pwHash from injecting as admin, so let's see if we can get information from it let's inject this into the username field
 
 `' or pwHash='Not a hash';--`
 

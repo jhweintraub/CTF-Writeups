@@ -4,7 +4,7 @@ Given it's a forensics challenge and the title says the word "meta" let's run ex
 
 We immediately find something related to the flag with this line 
 
-"Its The Flag                    : QUNJezVmMzQ1NjRiM2ViNjk3YjE2MzA3OTIxNjFmYX0="
+`"Its The Flag                    : QUNJezVmMzQ1NjRiM2ViNjk3YjE2MzA3OTIxNjFmYX0="`
 
 the "=" means base64 so decode it and we get the flag
 

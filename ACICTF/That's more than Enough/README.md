@@ -1,4 +1,4 @@
-Prompt - "We think Jolly Jeff is up to no good. See if you can find the hidden message in his JPEG Jammer."
+`Prompt - "We think Jolly Jeff is up to no good. See if you can find the hidden message in his JPEG Jammer."`
 
 A forensics challenge although there's not anything to download. Going to the page we get the following (image included)
 

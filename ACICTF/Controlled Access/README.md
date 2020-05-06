@@ -9,7 +9,7 @@ Running `binwalk -e` on the bin file we get a filesystem to peruse. After lookin
 
 We don't see root/loot but there is a file under /root/payload/payload.sh - Seems suspicious
 
-We find this line "INTERNAL_HOST=rootca.digisigner.local"
+We find this line `INTERNAL_HOST=rootca.digisigner.local`
 
 Going back to the prompt this gives us the flag
 
