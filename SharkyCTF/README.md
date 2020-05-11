@@ -40,10 +40,10 @@ I competed as Just me and my friend Stephan. Given that we competed against team
 - XXExternalXX
 
 ## What I learned
-- PNG Chunking Bytes in addition to magic bytes
-- Networking LOOP Protocol
-- XML Injection Protocols - PayloadAllTheThings
-- Github Gist Pages for url injections
+- PNGCheck - PNG Chunking Bytes are low hanging fruit like magic bytes
+- Wireshark Challenges - Check for Strange Protocols - TACAS+, Loop, etc. as good place to hide things
+- XML Injection Protocols - PayloadAllTheThings - Great Repo for Web Challenges
+- Github Gist Pages for url injections - Good for Code Snippet Hosting
 
 ## Things I need to work on
 - Assembly - Makes Reverse Engineering Difficult - I'm chalking some of this up to not having taken a class on this yet, so in 6 months after i've finished that class this should be better
