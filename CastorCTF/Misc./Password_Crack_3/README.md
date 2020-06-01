@@ -5,6 +5,6 @@ I wrote a quick shell script to take every word in rockyou.txt and place it in t
 
 I then ran hashcat on the hash and out popped the flag
 
-7adebe1e15c37e23ab25c40a317b76547a75ad84bf57b378520fd59b66dd9e12:castorsCTF{theformat!}
+`7adebe1e15c37e23ab25c40a317b76547a75ad84bf57b378520fd59b66dd9e12:castorsCTF{theformat!}`
 
 `castorsCTF{theformat!}`

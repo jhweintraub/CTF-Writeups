@@ -1,4 +1,3 @@
-it's leaking out the flag one character at a time, write a script to try each printable and leak the whole thing out
+When you nc to the challenge we get a simple prompt with no output. When you put in anything it gives you some weird hex bytes of which I was not able to decode to any known format. However, when you put in c it returns only `b''`. I then realized that since the flag format it `castorCTF` if every letter in the input matches it's position in the flag, then it should return no bytes in the output, it's leaking out the flag one character at a time. From there we can write a script to try each printable character and leak the whole thing out
 
-
-castorsCTF{k33p_y0ur_k3y5_53cr37_4nd_d0n7_r3u53_7h3m!}
+`castorsCTF{k33p_y0ur_k3y5_53cr37_4nd_d0n7_r3u53_7h3m!}`

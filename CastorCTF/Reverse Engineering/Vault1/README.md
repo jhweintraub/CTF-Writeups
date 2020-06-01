@@ -1,4 +1,6 @@
-decode the base64 and then xor the bytes with the ley they gave you
+`Prompt - YmFzZTY0`
+
+decode the base64 and then xor the bytes with the key they gave you
 
 `key: promortyusvatofacidpromortyusvato`
 
