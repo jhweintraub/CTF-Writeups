@@ -1,0 +1,14 @@
+---Key 1---
+check website - check robots.txt - 2 files - key-1-of-3.txt (flag) and fsocity.dic (a dictionary file)
+
+--Key 2---
+Directory scan shows a wordpress back end
+
+Go to /wp-admin and put in the normal checks (root, admin, etc) and we all get the message "ERROR: Invalid username. Lost your password?"
+
+Because the name of the box is Mr. Robot I tried the username "elliot" (the character from the show)
+and a random password and random password and get a diff. message "ERROR: The password you entered for the username elliot is incorrect"
+
+So now we know the user is elliot, and we have a dic. so let's use hydra to attack it
+
+
